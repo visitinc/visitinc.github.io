@@ -35,7 +35,7 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <footer>
+          <footer style={{fontFamily: 'sans-serif'}}>
             © {new Date().getFullYear()}, Visit, Inc.
           </footer>
         </div>

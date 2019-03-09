@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <h3>
-        A federated practice community.
+        is a protocol for practice.
       </h3>
     </div>
   </header>
