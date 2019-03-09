@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import "../fonts/fonts.css"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -15,7 +16,7 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: 0, fontFamily: 'Nokia Cellphone FC' }}>
         <Link
           to="/"
           style={{
