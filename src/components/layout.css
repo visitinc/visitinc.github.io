@@ -7,7 +7,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #4b0e09;
+  background-color: #636360;
 }
 article,
 aside,
@@ -622,3 +622,4 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
