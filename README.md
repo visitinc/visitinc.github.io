@@ -1,36 +1,24 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby's default starter
+  Studio Visit (Temporary) Landing Page
 </h1>
-
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the default starter.
-
-    ```sh
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
-    ```
-
 1.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+    Install dependencies and start the local gatsby server.
+
 
     ```sh
-    cd my-default-starter/
-    gatsby develop
+
+    npm install
+    npm run develop
+
     ```
+
+    Gatsby will source some of the site's copy from [the studio visit app
+    wiki](https://github.com/visitinc/visitinc.github.io/wiki). You currently
+    need to restart the dev server to fetch the latest copy (annoying!).
 
 1.  **Open the source code and start editing!**
 
@@ -42,7 +30,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 ## 🧐 What's inside?
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+A quick look at the top-level files and directories you'll see:
 
     .
     ├── node_modules
@@ -92,6 +80,13 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+To deploy to GitHub pages, execute:
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+```
+npm run deploy
+```
+
+This builds the site, commits the build artifacts to the master branch, and
+pushes it to GitHub for hosting.
+
+
