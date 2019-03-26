@@ -1,0 +1,37 @@
+@font-face {
+    src: url('hairline-fonts/OutputSansHairlinesVariable-VF.woff2') format("woff2"),
+         url('hairline-fonts/OutputSansHairlinesVariable-VF.woff') format("woff");
+    font-family: 'OSH Web';
+    font-style: normal;
+    font-weight: normal;
+    }
+
+@font-face {
+    src: url('hairline-fonts/OutputSansHairlines-Regular.eot'); /* IE < 9 */
+    src: url('hairline-fonts/OutputSansHairlines-Regular.eot?#') format("embedded-opentype"), /* IE 9 */
+         url('hairline-fonts/OutputSansHairlines-Regular.woff2') format("woff2"),
+         url('hairline-fonts/OutputSansHairlines-Regular.woff') format("woff");
+    font-family: 'OSH Web Regular';
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+@font-face {
+    src: url('hairline-fonts/OutputSansHairlines-Deck.eot'); /* IE < 9 */
+    src: url('hairline-fonts/OutputSansHairlines-Deck.eot?#') format("embedded-opentype"), /* IE 9 */
+         url('hairline-fonts/OutputSansHairlines-Deck.woff2') format("woff2"),
+         url('hairline-fonts/OutputSansHairlines-Deck.woff') format("woff");
+    font-family: 'OSH Web Deck';
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+@font-face {
+    src: url('hairline-fonts/OutputSansHairlines-Banner.eot'); /* IE < 9 */
+    src: url('hairline-fonts/OutputSansHairlines-Banner.eot?#') format("embedded-opentype"), /* IE 9 */
+         url('hairline-fonts/OutputSansHairlines-Banner.woff2') format("woff2"),
+         url('hairline-fonts/OutputSansHairlines-Banner.woff') format("woff");
+    font-family: 'OSH Web Banner';
+    font-style: normal;
+    font-weight: normal;
+    }

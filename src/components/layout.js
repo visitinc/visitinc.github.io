@@ -10,7 +10,9 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import "./reset.css"
 import "./layout.css"
+import "../fonts/hairline-fonts.css"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -36,7 +38,7 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
           <footer style={{fontFamily: 'sans-serif', paddingTop: '0.5rem'}}>
-            © {new Date().getFullYear()}, Visit, Inc.
+            <h1> © {new Date().getFullYear()}, Visit, Inc.</h1>
           </footer>
         </div>
       </>

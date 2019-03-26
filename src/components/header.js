@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem 0.3rem 1rem`,
       }}
     >
-      <h1 style={{ margin: 0, fontFamily: 'Nokia Cellphone FC' }}>
+      <h1 style={{ margin: 0, fontFamily: "Nokia Cellphone FC" }}>
         <Link
           to="/"
           style={{
@@ -22,9 +22,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <h3>
-        is a protocol for practice.
-      </h3>
+      <h2>is a protocol for practice.</h2>
     </div>
   </header>
 )
