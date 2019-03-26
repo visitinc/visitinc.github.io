@@ -1,5 +1,5 @@
 ---
-title: Home
+title: About Us
 ---
 
-Hello!
+`gh-wiki:About-Us`

@@ -18,7 +18,8 @@
 
     Gatsby will source some of the site's copy from [the studio visit app
     wiki](https://github.com/visitinc/visitinc.github.io/wiki). You currently
-    need to restart the dev server to fetch the latest copy (annoying!).
+    need to either change the markdown file or restart the dev server to fetch
+    the latest copy (annoying!).
 
 1.  **Open the source code and start editing!**
 
