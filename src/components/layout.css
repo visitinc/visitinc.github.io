@@ -2,6 +2,28 @@ h1, h2, p, li {
   font-family: 'OSH Web Regular';
 }
 
+p, li {
+  font-size: 1.35rem;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+  position: relative;
+}
+
+li::before {
+    content: '\2022';      /* Unicode for • character */
+    position: absolute;
+    left: -0.65em;          /* Adjust this value so that it appears where you want. */
+    font-size: 1.75rem;      /* Adjust this value so that it appears what size you want. */
+}
+
+a {
+  color: #2929fa;
+  text-decoration: none;
+}
+
 body {
   background-color: #e5e5e5;
 }
