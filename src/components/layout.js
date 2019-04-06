@@ -38,7 +38,9 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
           <footer style={{ fontFamily: "sans-serif", paddingTop: "0.5rem" }}>
-            <h1> © {new Date().getFullYear()}, Visit, Inc.</h1>
+           <h1> © {new Date().getFullYear()} Visit, Inc.</h1>
+           <input type="text" placeholder="Enter email for invite" />
+           <input type="submit" />
           </footer>
         </div>
       </>
