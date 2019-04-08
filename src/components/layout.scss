@@ -1,4 +1,8 @@
-h1, h2, p, li {
+$bg-color: #e5e5e5;
+$text-primary-color: black;
+$action-color: #2929fa;
+
+h1, h2, p, li, a {
   font-family: 'OSH Web Regular';
 }
 
@@ -11,7 +15,6 @@ li {
   list-style-type: none;
   position: relative;
 }
-
 li::before {
     content: '\2022';      /* Unicode for • character */
     position: absolute;
@@ -19,17 +22,20 @@ li::before {
     font-size: 1.75rem;      /* Adjust this value so that it appears what size you want. */
 }
 
-a {
-  color: #2929fa;
+a, button {
+  color: $action-color;
   text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+a:hover, button:hover {
+  color: lighten($action-color, 10%);
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: $bg-color;
 }
 
-footer input {
-   background-color: transparent;
-   border: none;
-   border-bottom: 1px solid black;
+input:focus {
+  outline-color: #777;
 }
